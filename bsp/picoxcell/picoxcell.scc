@@ -1,9 +1,8 @@
 include cfg/8250.cfg
-include cfg/fs/debugfs.scc
 include cfg/timer/hz_1000.scc
 
 include features/debug/printk.scc
-include features/hrt/hrt.scc
+include features/net/net.scc
 
 kconf hardware picoxcell.cfg
 kconf non-hardware picoxcell-non_hardware.cfg
